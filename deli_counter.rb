@@ -16,7 +16,7 @@ end
 return deli_counter
 end
 
-def take_a_number()
+def take_a_number(deli_counter)
 deli_counter == 0
 if deli_counter == 0
   deli_counter += 1
@@ -25,7 +25,7 @@ elsif deli_counter > 0
 
 end
 
-def now_serving()
+def now_serving(deli_counter)
 deli_counter == 0
   if deli_counter == 0
     puts "The line is currently empty."
