@@ -6,8 +6,8 @@ def line
 #how to show place in line? you can show in index number? find index?
 #i need to go through katz_deli
 katz_deli = []
-katz_deli.count()
-
+puts katz_deli.count()
+if katz_deli.count() == 0
 puts "The line is currently empty."
 
 end
