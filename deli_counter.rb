@@ -9,7 +9,7 @@ katz_deli = []
 puts katz_deli.count()
 if katz_deli.count() == 0
 puts "The line is currently empty."
-
+end
 end
 
 def take_a_number()
