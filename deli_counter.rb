@@ -10,7 +10,7 @@ deli_counter.each do |customer|
   deli_counter +=1
 end
 
-if deli_counter == 0 
+if deli_counter == 0
   puts "The line is currently empty."
 end
 return deli_counter
