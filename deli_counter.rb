@@ -6,11 +6,14 @@ def line(deli_counter)
 #how to show place in line? you can show in index number? find index?
 #i need to go through katz_deli, and a person in life
 deli_counter == 0
-katz_deli = []
-puts katz_deli.count()
-if katz_deli.count() == 0
-puts "The line is currently empty."
+deli_counter.each do |customer|
+  deli_counter +=1
 end
+
+if deli_counter == 0 
+  puts "The line is currently empty."
+end
+return deli_counter
 end
 
 def take_a_number()
