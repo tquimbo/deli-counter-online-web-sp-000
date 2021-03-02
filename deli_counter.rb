@@ -22,7 +22,7 @@ if deli_counter == 0
   deli_counter += 1
 elsif deli_counter > 0
   katz_deli.push (1)
-  
+
 end
 
 def now_serving()
